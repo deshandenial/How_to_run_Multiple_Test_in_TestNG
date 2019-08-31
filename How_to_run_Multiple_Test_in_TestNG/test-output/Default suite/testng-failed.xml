@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.How_to_run_Multiple_Test_Suite_in_TestNG.Demo_How_to_run_Multiple_Test_in_TestNG">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="Keyboard_Events_keyDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.How_to_run_Multiple_Test_Suite_in_TestNG.Demo_How_to_run_Multiple_Test_in_TestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
